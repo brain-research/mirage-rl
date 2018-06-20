@@ -1,0 +1,12 @@
+[submodule "trpo"]
+	path = trpo
+	url = sso://team/mprop/mprop
+[submodule "bpttv"]
+	path = bpttv
+	url = sso://team/mprop/mprop-bttv
+[submodule "stein"]
+	path = stein
+	url = sso://team/mprop/mprop-stein
+[submodule "qprop"]
+	path = qprop
+	url = sso://team/mprop/qprop
