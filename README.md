@@ -1,6 +1,6 @@
 # The Mirage of Action-Dependent Baselines in Reinforcement Learning
 
-Code accompanying *The Mirage of Action-Dependent Baselines in Reinforcement Learning*. George Tucker, Surya Bhupatiraju, Shixiang Gu, Richard E. Turner, Zoubin Ghahramani, Sergey Levine. ICML 2018. (https://arxiv.org/abs/1802.10031)
+Code to reproduce the experiments in *The Mirage of Action-Dependent Baselines in Reinforcement Learning*. George Tucker, Surya Bhupatiraju, Shixiang Gu, Richard E. Turner, Zoubin Ghahramani, Sergey Levine. ICML 2018. (https://arxiv.org/abs/1802.10031)
 
 ## Linear-Quadratic-Gaussian (LQG) systems
 See Appendix Section 9 for a detailed description of the LQG system. The code in
@@ -90,3 +90,6 @@ To generate the figure from the data, run
 ```
 python plot_disc.py
 ```
+
+This is not an officially supported Google product. George Tucker
+(gjt@google.com) maintains this.
