@@ -10,3 +10,6 @@
 [submodule "qprop"]
 	path = qprop
 	url = sso://team/mprop/qprop
+[submodule "lqg"]
+	path = lqg
+	url = sso://team/mprop/lqg
