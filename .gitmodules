@@ -1,15 +1,15 @@
 [submodule "trpo"]
 	path = trpo
-	url = sso://team/mprop/mprop
+	url = https://github.com/ikostrikov/pytorch-trpo
 [submodule "bpttv"]
 	path = bpttv
-	url = sso://team/mprop/mprop-bttv
+	url = https://github.com/wgrathwohl/BackpropThroughTheVoidRL
 [submodule "stein"]
 	path = stein
-	url = sso://team/mprop/mprop-stein
+	url = https://github.com/DartML/PPO-Stein-Control-Variate
 [submodule "qprop"]
 	path = qprop
-	url = sso://team/mprop/qprop
+	url = https://github.com/shaneshixiang/rllabplusplus
 [submodule "lqg"]
 	path = lqg
 	url = sso://team/mprop/lqg
