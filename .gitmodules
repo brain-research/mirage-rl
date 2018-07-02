@@ -10,6 +10,3 @@
 [submodule "qprop"]
 	path = qprop
 	url = https://github.com/shaneshixiang/rllabplusplus
-[submodule "lqg"]
-	path = lqg
-	url = sso://team/mprop/lqg
