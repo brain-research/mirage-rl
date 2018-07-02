@@ -9,9 +9,7 @@ Figures 1 and 5.
 
 ## Q-Prop (https://arxiv.org/abs/1611.02247)
 We modified the Q-Prop implementation published
-by the authors at https://github.com/
-shaneshixiang/rllabplusplus (commit:
-4d55f96). For our experiments, we used the conservative variant of QProp,
+by the authors at https://github.com/shaneshixiang/rllabplusplus (commit: 4d55f96). For our experiments, we used the conservative variant of QProp,
 as is used throughout the experimental section in the
 original paper. We used the default choices of policy and
 value functions, learning rates, and other hyperparameters. This code was
@@ -23,8 +21,7 @@ NOTE: Running the experiments found in `sandbox/rocky/tf/launchers/sample_run.sh
 
 ## Backpropagation through the Void (https://arxiv.org/abs/1711.00123)
 We used the implementation published by the authors
-(https://github.com/wgrathwohl/
-BackpropThroughTheVoidRL, commit: 0e6623d)
+(https://github.com/wgrathwohl/BackpropThroughTheVoidRL, commit: 0e6623d)
 with the following modification: we measure the variance
 of the policy gradient estimator. In the original code, the
 authors accidentally measure the variance of a gradient
@@ -40,8 +37,7 @@ baselines/a2c/plot_a2c.py
 ```
 ## Action-depedent Control Variates for Policy Optimization via Stein's Identity (https://arxiv.org/abs/1710.11198)
 We used the Stein control variate implementation published
-by the authors at https://github.com/DartML/
-PPO-Stein-Control-Variate (commit: 6eec471). We describe the experiments in
+by the authors at https://github.com/DartML/PPO-Stein-Control-Variate (commit: 6eec471). We describe the experiments in
 Appendix Section 8.2 and use the code to generate Figures 8 and 12.
 
 To generate Figure 8, first create runner scripts with
@@ -61,8 +57,7 @@ python traj_visualize.py
 ```
 ## TRPO experiments
 We modified the open-source
-TRPO implementation: https://github.com/
-ikostrikov/pytorch-trpo (commit: 27400b8).
+TRPO implementation: https://github.com/ikostrikov/pytorch-trpo (commit: 27400b8).
 
 ### Performance comparison
 To generate the performance comparison plot (Figure 4), switch to branch state_comparison and run the commands in the run_*.sh scripts and copy down the logs. Then run
