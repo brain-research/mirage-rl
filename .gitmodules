@@ -1,12 +1,12 @@
 [submodule "trpo"]
 	path = trpo
-	url = sso://team/mprop/mprop
+	url = git@github.com:brain-research/mirage-rl-trpo.git
 [submodule "bpttv"]
 	path = bpttv
-	url = sso://team/mprop/mprop-bttv
+	url = git@github.com:brain-research/mirage-rl-bpttv.git
 [submodule "stein"]
 	path = stein
-	url = sso://team/mprop/mprop-stein
+	url = git@github.com:brain-research/mirage-rl-stein.git
 [submodule "qprop"]
 	path = qprop
-	url = sso://team/mprop/qprop
+	url = git@github.com:brain-research/mirage-rl-qprop.git
